@@ -7,7 +7,7 @@ driver = webdriver.Chrome()
 driver.get("https://accounts.google.com")   #Открытие браузера нужной страницы
 
 
-def check_email(email):   # Создаем фенкции
+def check_email(email):   # Создаем функции
     email_field = driver.find_element_by_name("identifier") # Выбераем поле в которое будим вводить текст
     email_field.clear()
     email_field.send_keys(email) #Вводим текст
