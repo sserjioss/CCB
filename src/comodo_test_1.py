@@ -24,7 +24,7 @@ sign_out_field = driver.find_element_by_xpath("//div[contains(text(),'Sign Out')
 
 sign_out_field.click()
 
-#driver.quit()
+driver.quit()
 
 #next_button = driver.find_element_by_xpath("//*[@id="home"]/div/app-login/div/form/button/div[1]") # Выбираем кнопку (По id) по которой должны кликнуть
 #next_button.click() # команда нажатия кнопки
